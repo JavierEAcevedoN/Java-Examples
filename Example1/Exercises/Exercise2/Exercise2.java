@@ -11,10 +11,10 @@ public class Exercise2 {
         int numero = input.nextInt();
         int contador = 1;
         
-        do {
+        while (numero > 1) {
             numero = numero/10;
             contador++;
-        } while (numero < 1);
+        }
 
         System.out.print("La cantidad de digitos que tiene el numero dado es de: ");
         System.out.println(contador);
