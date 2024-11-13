@@ -1,3 +1,5 @@
+package Example4.Cadena;
+
 public class Cadena {
     public static void main(String[] args) {
         String a = "abc";
