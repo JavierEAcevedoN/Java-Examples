@@ -1,3 +1,5 @@
+package Example5.POO;
+
 public class POO {
     public static void main(String[] args) {
         MiClase.Saludo();

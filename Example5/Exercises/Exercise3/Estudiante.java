@@ -1,4 +1,4 @@
-package Examples5.Exercises.Exercise3;
+package Example5.Exercises.Exercise3;
 
 public class Estudiante {
     private String nombre;

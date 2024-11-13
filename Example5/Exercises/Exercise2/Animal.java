@@ -1,4 +1,4 @@
-package Examples5.Exercises.Exercise2;
+package Example5.Exercises.Exercise2;
 
 public class Animal {
     String tipo;

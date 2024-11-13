@@ -1,3 +1,5 @@
+package Example5.POO;
+
 public class MiClase {
     // Atributos
     String atributo1;
