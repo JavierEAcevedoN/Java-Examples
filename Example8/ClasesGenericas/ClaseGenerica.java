@@ -1,6 +1,6 @@
 package Example8.ClasesGenericas;
 
-// Los 
+// Las clases genericas se utilizan para no tener que crear muchos metodos para cada tipo de dato.
 public class ClaseGenerica<T> {
     private T contenido;
 
