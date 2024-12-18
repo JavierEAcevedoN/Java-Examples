@@ -39,6 +39,7 @@ public class AdivinarNumero {
         while (true) {
             if (max<5) {
                 JOptionPane.showMessageDialog(null, "llegaste a la maxima cantidad de intentos", "No puedes jugar mas", -1);
+                // en este caso el metodo showOptionDialog se utiliza parecido a showInputDialog en el sentido de devolver un "input" pero con opciones predefinidas.
                 decicion = JOptionPane.showOptionDialog(null, "Quiere jugar otra vez?", "Jugar de nuevo?", JOptionPane.DEFAULT_OPTION, -1, null, opciones, opciones[0]);
                 if (decicion == 0) {
                     this.setIntentos(1);

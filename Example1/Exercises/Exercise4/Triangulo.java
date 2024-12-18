@@ -1,5 +1,6 @@
 package Exercise4;
 
+// JOptionPane se utiliza para poder invocar una ventana emergente que tiene varios usos.
 import javax.swing.JOptionPane;
 /**
  *
@@ -14,6 +15,7 @@ public class Triangulo {
             resultado += "\n"+punto;
             punto += "*";
         }
+        // en este caso el metodo showMessageDialog se utiliza para mostrar un mensaje en la ventana emergente.
         JOptionPane.showMessageDialog(null, resultado);
     }
 }

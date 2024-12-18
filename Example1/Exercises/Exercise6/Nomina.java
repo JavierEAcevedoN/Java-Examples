@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 public class Nomina {
     public static void main(String[] args) {
         int valorhora = 20000;
+        // en este caso el metodo showInputDialog se utiliza para poder ingresar datos por medio de la ventana emergente al igual que Scanner, claro haciendo la conversion correcta del input entrante.
         int horas = Integer.parseInt(JOptionPane.showInputDialog("Ingresa la cantidad de horas trabajadas"));
         String resultado;
         

@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "Example1\\Exercises",
+        "Example1\\Sintaxis",
+        "Example3\\Exercises",
+        "Example4\\Exercises"
+    ],
+    "java.project.referencedLibraries": [
+        "LibreriasExternas\\mysql-connector-j-9.1.0.jar"
+    ]
+}
